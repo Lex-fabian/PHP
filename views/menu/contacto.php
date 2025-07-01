@@ -24,9 +24,9 @@
 
         <div class="info-contacto">
             <p><strong>📱 Móvil:</strong> +593 99 999 9999</p>
-            <p><strong>☎️ Oficina:</strong> (02) 222 2222</p>
-            <p><strong>📧 Correo:</strong> contacto@techzone.com</p>
-            <p><strong>📍 Dirección:</strong> Av. de la Tecnología 123, Quito, Ecuador</p>
+            <p><strong>☎️ Oficina:</strong> (02) 222 58452</p>
+            <p><strong>📧 Correo:</strong> contacto@TecnoEvolution.com</p>
+            <p><strong>📍 Dirección:</strong> Av. de las Gardeñas 123, Ambato, Ecuador</p>
             <p><strong>🌐 Redes Sociales:</strong>
                 <a href="https://facebook.com" target="_blank">Facebook</a> |
                 <a href="https://twitter.com" target="_blank">Twitter</a> |
