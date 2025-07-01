@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1c1d34 0%, #04345c 100%);
+}
+
+.cabeza {
+    width: 100%;
+    background: linear-gradient(135deg, #04345c 0%, #1c1d34 100%);
+    color: #a9aac0;
+    padding: 18px 0 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    position: relative;
+}
+
+.btn-volver {
+    position: absolute;
+    right: 30px;
+    top: 24px;
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.btn-volver:hover {
+    background: #005fa3;
+}
+
+.cuerpo {
+    display: flex;
+    min-height: 90vh;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.carrito-contenido {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0,120,215,0.10);
+    padding: 32px 28px;
+    min-width: 350px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.tabla-carrito {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 18px;
+}
+.tabla-carrito th, .tabla-carrito td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.tabla-carrito th {
+    background: #04345c;
+    color: #fff;
+}
+.tabla-carrito tr:nth-child(even) {
+    background: #f5f8ff;
+}
+.btn-quitar {
+    background: #d8000c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2em;
+    cursor: pointer;
+    padding: 2px 10px;
+    transition: background 0.2s;
+}
+.btn-quitar:hover {
+    background: #a30000;
+}
+
+.carrito-total {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 18px;
+    text-align: right;
+    color: #04345c;
+}
+
+.btn-comprar {
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 28px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: block;
+    margin: 0 auto;
+}
+.btn-comprar:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
+.btn-comprar:hover:enabled {
+    background: #005fa3;
+}

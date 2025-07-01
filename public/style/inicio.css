@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1c1d34 0%, #04345c 100%);
+}
+
+.cabeza {
+    width: 100%;
+    background: linear-gradient(135deg, #04345c 0%, #1c1d34 100%);
+    color: #a9aac0;
+    padding: 18px 0 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    position: relative;
+}
+
+.btn-login-cabecera {
+    position: absolute;
+    right: 30px;
+    top: 24px;
+    background: #04345c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn-login-cabecera:hover {
+    background: #005fa3;
+}
+
+.carrito-flotante {
+    position: fixed;
+    right: 32px;
+    bottom: 32px;
+    background: #04345c;
+    color: #fff;
+    border-radius: 50px;
+    padding: 12px 22px 12px 18px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.18);
+    font-size: 1.5em;
+    display: flex;
+    align-items: center;
+    z-index: 1001;
+    text-decoration: none;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+.carrito-flotante:hover {
+    background: #005fa3;
+    box-shadow: 0 6px 24px rgba(0,0,0,0.22);
+}
+.carrito-flotante .fa-cart-shopping {
+    font-size: 1.5em;
+    color: #fff;
+}
+.carrito-flotante .carrito-contador {
+    background: #d8000c;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.95em;
+    padding: 2px 9px;
+    margin-left: 10px;
+    font-weight: bold;
+    min-width: 22px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+}
+
+.cuerpo {
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    width: 100%;
+    max-width: 900px;
+    margin: 40px auto 0 auto;
+}
+
+.producto-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    padding: 18px 14px;
+    text-align: center;
+    font-size: 1em;
+    min-width: 0;
+    word-break: break-word;
+}
+
+.producto-card strong {
+    color: #0078d7;
+    font-size: 1.1em;
+}
+
+.producto-card span {
+    display: block;
+    margin: 8px 0 6px 0;
+    color: #444;
+    font-size: 0.97em;
+}
+
+.lista-productos {
+    margin-top: 30px;
+    background: #fff;
+    border-radius: 8px;
+    padding: 12px 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    width: 140px;
+}
+
+.lista-productos h3 {
+    margin: 0 0 10px 0;
+    font-size: 1em;
+    color: #0078d7;
+    text-align: center;
+}
+
+.lista-productos ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lista-productos li {
+    margin-bottom: 10px;
+    font-size: 0.97em;
+    text-align: left;
+}
+
+.modal-login {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0; top: 0; right: 0; bottom: 0;
+    width: 100vw; height: 100vh;
+    background: rgba(0,0,0,0.45);
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-login-content {
+    background: linear-gradient(135deg, #f5f8ff 0%, #e3eafc 100%);
+    border: 1.5px solid #0078d7;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0,120,215,0.10);
+    padding: 32px 28px 22px 28px;
+    color: #242648;
+    min-width: 280px;
+    max-width: 90vw;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cerrar-login {
+    position: absolute;
+    top: 10px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    font-size: 1.7em;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.cerrar-login:hover {
+    color: #d8000c;
+}
+
+.modal-login-content h2 {
+    margin-bottom: 18px;
+}
+
+.modal-login-content label {
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-weight: bold;
+    font-size: 0.97em;
+    display: block;
+}
+
+.modal-login-content input {
+    width: 220px;
+    padding: 6px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.97em;
+}
+
+.modal-login-content button[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    background: #04345c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.modal-login-content button[type="submit"]:hover {
+    background: #1c1d34;
+}
+
+.img-mini {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    background: #f5f8ff;
+    margin-bottom: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

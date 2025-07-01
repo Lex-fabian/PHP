@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1c1d34 0%, #04345c 100%);
+}
+
+.cabeza {
+    width: 100%;
+    background: linear-gradient(135deg, #04345c 0%, #1c1d34 100%);
+    color: #a9aac0;
+    padding: 18px 0 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    position: relative;
+}
+
+.btn-cerrar-sesion {
+    position: absolute;
+    right: 30px;
+    top: 24px;
+    background: #d8000c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 18px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+.btn-cerrar-sesion:hover {
+    background: #a30000;
+}
+
+.cuerpo {
+    display: flex;
+    min-height: 90vh;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.crud-productos {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0,120,215,0.10);
+    padding: 32px 28px;
+    min-width: 350px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.mensaje-producto {
+    background: #e3eafc;
+    color: #04345c;
+    border: 1px solid #0078d7;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 18px;
+    text-align: center;
+}
+
+.form-producto {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 22px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.form-producto input[type="text"],
+.form-producto input[type="number"] {
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    min-width: 120px;
+}
+.form-producto button {
+    background: #0078d7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.form-producto button:hover {
+    background: #005fa3;
+}
+.btn-cancelar {
+    background: #888;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    font-size: 1em;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.btn-cancelar:hover {
+    background: #555;
+}
+
+.tabla-productos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.tabla-productos th, .tabla-productos td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.tabla-productos th {
+    background: #04345c;
+    color: #fff;
+}
+.tabla-productos tr:nth-child(even) {
+    background: #f5f8ff;
+}
+.btn-editar, .btn-eliminar {
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-size: 0.97em;
+    text-decoration: none;
+    margin-right: 4px;
+}
+.btn-editar {
+    background: #0078d7;
+    color: #fff;
+}
+.btn-editar:hover {
+    background: #005fa3;
+}
+.btn-eliminar {
+    background: #d8000c;
+    color: #fff;
+}
+.btn-eliminar:hover {
+    background: #a30000;
+}
+
+.img-mini {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    background: #f5f8ff;
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
