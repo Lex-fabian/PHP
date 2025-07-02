@@ -1,7 +1,7 @@
 <?php
-require_once __DIR__ . '/../controllers/comprasControl.php';
+require_once __DIR__ . '/../controllers/contactoControl.php';
 
-function rutaCompras() {
-    mostrarCompras();
+function rutaContacto() {
+    mostrarContacto();
 }
 ?>
