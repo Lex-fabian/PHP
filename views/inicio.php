@@ -105,5 +105,51 @@
             });
         });
     </script>
+     <footer style="background: linear-gradient(135deg, #04345c 0%, #1c1d34 100%); color: #a9aac0; padding: 40px 20px 20px 20px; margin-top: 50px;">
+        <div style="max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
+            
+            <!-- Información de Contacto -->
+            <div>
+                <h3 style="color: #fff; margin-bottom: 20px; font-size: 1.2em;">📞 Contacto</h3>
+                <p style="margin: 8px 0;"><strong>📱 Móvil:</strong> +593 99 999 9999</p>
+                <p style="margin: 8px 0;"><strong>☎️ Oficina:</strong> (02) 222 58452</p>
+                <p style="margin: 8px 0;"><strong>📧 Email:</strong> contacto@TecnoEvolution.com</p>
+                <p style="margin: 8px 0;"><strong>📍 Dirección:</strong> Av. de las Gardeñas 123, Ambato, Ecuador</p>
+            </div>
+
+            <!-- Enlaces Rápidos -->
+            <div>
+                <h3 style="color: #fff; margin-bottom: 20px; font-size: 1.2em;">🔗 Enlaces Rápidos</h3>
+                <p style="margin: 8px 0;"><a href="app.php?paginas=inicio" style="color: #a9aac0; text-decoration: none;">🏠 Inicio</a></p>
+                <p style="margin: 8px 0;"><a href="app.php?paginas=compras" style="color: #a9aac0; text-decoration: none;">🛒 Carrito</a></p>
+                <p style="margin: 8px 0;"><a href="app.php?paginas=contacto" style="color: #a9aac0; text-decoration: none;">📞 Contacto</a></p>
+                <p style="margin: 8px 0;"><a href="#" onclick="document.getElementById('btnMostrarLogin').click();" style="color: #a9aac0; text-decoration: none;">🔐 Administrador</a></p>
+            </div>
+
+            <!-- Redes Sociales -->
+            <div>
+                <h3 style="color: #fff; margin-bottom: 20px; font-size: 1.2em;">🌐 Síguenos</h3>
+                <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                    <a href="https://facebook.com" target="_blank" style="color: #a9aac0; text-decoration: none; padding: 8px 12px; background: rgba(255,255,255,0.1); border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">📘 Facebook</a>
+                    <a href="https://twitter.com" target="_blank" style="color: #a9aac0; text-decoration: none; padding: 8px 12px; background: rgba(255,255,255,0.1); border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">🐦 Twitter</a>
+                    <a href="https://instagram.com" target="_blank" style="color: #a9aac0; text-decoration: none; padding: 8px 12px; background: rgba(255,255,255,0.1); border-radius: 5px; transition: background 0.3s;" onmouseover="this.style.background='rgba(255,255,255,0.2)'" onmouseout="this.style.background='rgba(255,255,255,0.1)'">📷 Instagram</a>
+                </div>
+            </div>
+
+            <!-- Información de la Empresa -->
+            <div>
+                <h3 style="color: #fff; margin-bottom: 20px; font-size: 1.2em;">🏢 TecnoEvolution</h3>
+                <p style="margin: 8px 0; line-height: 1.6;">Tu tienda de confianza para productos tecnológicos de última generación.</p>
+                <p style="margin: 8px 0; font-size: 0.9em;">Horarios de atención:</p>
+                <p style="margin: 4px 0; font-size: 0.9em;">📅 Lun - Vie: 9:00 AM - 6:00 PM</p>
+                <p style="margin: 4px 0; font-size: 0.9em;">📅 Sáb: 9:00 AM - 2:00 PM</p>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div style="text-align: center; margin-top: 30px; padding-top: 20px; border-top: 1px solid rgba(169, 170, 192, 0.3);">
+            <p style="margin: 0; font-size: 0.9em;">&copy; 2025 TecnoEvolution. Todos los derechos reservados. | Desarrollado con ❤️</p>
+        </div>
+    </footer>
 </body>
 </html>
