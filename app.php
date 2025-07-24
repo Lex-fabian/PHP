@@ -20,7 +20,6 @@ if ($paginas === 'inicio') {
 } elseif ($paginas === 'contacto') {
     rutaContacto();
 } else {
-    // Página no encontrada, redirigir a inicio
     header('Location: app.php?paginas=inicio');
     exit;
 }
