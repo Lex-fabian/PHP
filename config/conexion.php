@@ -5,6 +5,7 @@ define('DB_NAME', 'crud');
 define('DB_USER', 'root');
 define('DB_PASSWORD', 'root1234');
 
+
 try {
     $conexion = new PDO(
         'mysql:host=' . DB_HOST . ';dbname=' . DB_NAME . ';charset=utf8',
